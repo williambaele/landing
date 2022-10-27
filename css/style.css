@@ -1,0 +1,151 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  margin: 0px auto;
+}
+h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.banner {
+
+  background-size: cover;
+  background-position: center;
+  padding: 140px 0;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 59%, rgba(0, 0, 0, 0.5) 100%), url('https://cdn1-production-images-kly.akamaized.net/_FUpwyfj2XX1DigCX_woJuDu6W0=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1590335/original/092899500_1494403408-Ilustrasi_coding__pemrograman__programmer__programming_Kredit_Pexels_via_Pixabay.jpg')
+}
+.banner img {
+  filter: grayscale(60%);
+}
+.banner p {
+  color:white;
+}
+.banner a {
+  color:white;
+  font-weight: 600;
+}
+.banner-button {
+  padding: 15px 35px;
+  background-color: #FFCB42;
+  border-radius: 12px;
+  color: #9999;
+  display: inline-block;
+}
+
+/* DIV FOR CARDS */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+/* INDIVIDUAL CARD */
+.card {
+  width: 240px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 15px;
+  border: 1px solid gray;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 140px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #252627;
+}
+
+
+.footer-content a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*
+/*RESPONSIVE*/
+@media(max-width: 1100px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 1100px) {
+.container {
+    width: 500px;
+} }
+
+@media (max-width: 1100px)  {
+.cards {
+    justify-content: space-around;
+} }
+
+/* MEDIUM SIZE*/
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 900px) {
+.cards {
+    justify-content: space-around;
+} }
+
+@media (max-width: 500px) {
+  .card {
+      margin-bottom: 20px;
+  } }
+
+
+/* MOBILE */
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 500px) {
+.cards {
+    justify-content: space-around;
+} }
+@media (max-width: 500px) {
+.card {
+    margin-bottom: 15px;
+} }
